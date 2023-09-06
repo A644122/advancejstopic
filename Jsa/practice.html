@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>practices</title>
+    </head>
+    <body>
+        <input type="text" name="name" id="name"/>
+        <br><br>
+        <button onclick="greet()">Greet</button>
+    <div class="greet"></div>
+    </body>
+    <script type="text/javascript">
+        function greet(){
+            var name=document.getElementById('name').value;
+         var string="hellow"+name;
+         document.getElementsByClassName('greet')[0].innerHTML =string;
+            alert('yes');
+
+        }
+    </script>
+</html>

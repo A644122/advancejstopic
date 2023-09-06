@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>user-define function</title>
+
+    </head>
+    
+    <body style="background-color:rgb(100, 38, 38);">
+<input type="text" name="name" id="name"/>
+<button onclick="greet()" style="color: darkgreen;">Greet</button>
+<div class="greet"></div>
+<div class="manual"></div>
+
+    </body>
+    <script>
+    function greet(){
+ var name= document.getElementById('name').value;
+var string="afroz"+name;
+document.getElementsByClassName('greet')[0].innerHTML =string;
+document.getElementsByClassName('manual')[1].innerHTML =string;
+ 
+        
+}
+
+    </script>
+
+</html>
