@@ -1,0 +1,15 @@
+/* mediaquery */
+@media screen and(max-width:600px){
+    .banner-section{
+        display: inline-block;
+
+    }
+    .container{
+        display: block;
+    }
+    .nav-linkss{
+        display: block;
+        ;
+
+    }
+}
